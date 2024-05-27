@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Automated Attendance System</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+    <string-array name="branches">
+        <item>Information Technology</item>
+        <item>Computer Science</item>
+        <item>Mechanical</item>
+        <item>Civil</item>
+        <item>Bio-Technology</item>
+    </string-array>
+
+    <string-array name="classes">
+        <item>FE</item>
+        <item>SE</item>
+        <item>TE</item>
+        <item>BE</item>
+    </string-array>
+
+    <string-array name="BE_CS_IT_Subjects">
+        <item>Cyber_Security</item>
+        <item>Data_Analytics</item>
+        <item>Soft_Computing</item>
+        <item>LRPS</item>
+    </string-array>
+
+    <string-array name="SE_CS_Subjects">
+        <item>BIO</item>
+        <item>COA</item>
+        <item>FA</item>
+        <item>DE</item>
+        <item>DSA</item>
+    </string-array>
+
+</resources>

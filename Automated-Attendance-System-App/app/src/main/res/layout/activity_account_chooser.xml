@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".AccountChooserActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/account_chooser_teacher_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teacher"
+            android:backgroundTint="#1A237E"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:padding="25dp"
+            android:textColor="@color/white"
+            android:onClick="teacher_chooser"/>
+
+        <Button
+            android:id="@+id/account_chooser_student_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student"
+            android:textStyle="bold"
+            android:backgroundTint="#1A237E"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:padding="25dp"
+            android:onClick="student_chooser"/>
+
+        <Button
+            android:id="@+id/change_ssid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change SSID"
+            android:textStyle="bold"
+            android:backgroundTint="#1A237E"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:padding="25dp"
+            android:visibility="gone"
+            android:onClick="changeSSID"/>
+
+    </LinearLayout>
+
+</LinearLayout>
